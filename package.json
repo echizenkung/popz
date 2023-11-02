@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "npm install && nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs",
+    "build:digitalocean": "npm install --production=false && npm run build && npm ci"
+  },
+  "devDependencies": {
+    "@hypernym/nuxt-gsap": "^2.4.2",
+    "@nuxt/devtools": "latest",
+    "@types/node": "^20.5.7",
+    "@types/pubnub": "^7.3.1",
+    "daisyui": "^3.6.3",
+    "nuxt": "^3.7.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.0.0-rc.1",
+    "@nuxtjs/device": "^3.1.1",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@wordpress/block-library": "^8.17.0",
+    "pubnub": "^7.3.1",
+    "vue-zoom-scroll": "^1.0.29",
+    "vue3-infinite-slide-bar": "^1.0.4"
+  }
+}

@@ -1,0 +1,7 @@
+version: '3'
+services:
+
+  pop-slot:
+    image: pop-slot:1.0.0
+    ports:
+      - '3000:80'
