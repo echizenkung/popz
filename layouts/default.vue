@@ -32,7 +32,7 @@
               >
                 <div class="chat-image avatar">
                   <div class="w-10 rounded-full">
-                    <img src="../assets/456322.webp" style="color: #fd9228;"/>
+                    <img src="../assets/456322.webp" style="color: #fd9228" />
                   </div>
                 </div>
                 <div class="chat-bubble">{{ item.message.text }}</div>
@@ -116,12 +116,11 @@
     <slot></slot>
   </div>
 
-  <footer class="footer bg-[#eb7b31] text-[#ffffff] p-10">
+  <!-- <footer class="footer bg-[#eb7b31] text-[#ffffff] p-10">
     <div class="w-full">
       <div class="container py-2 mx-auto lg:w-[60%] md:w-[100%]">
         <div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
           <div class="flex justify-center col-span-4 lg:col-span-2">
-            <!-- <h1 class="text-[24px]">POPSLOTS</h1> -->
             <figure>
               <img
                 src="../assets/logo.webp"
@@ -309,10 +308,6 @@
         </div>
         <div class="flex justify-center gap-8 mt-4 mb-4">
           <div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
-            <!-- <button class="btn btn-outline btn-info w-[160px] h-[40px]">
-                            <figure><img src="../assets/logo-greyscale-inverse.webp" alt="maquee-cover"
-                                    class=" w-[160px] h-[40px]" /></figure>
-                        </button> -->
             <button class="btn btn-outline btn-info w-[160px] h-[40px]">
               <figure>
                 <img
@@ -363,7 +358,9 @@
         </div>
       </div>
     </div>
-  </footer>
+  </footer> -->
+
+
 </template>
 <script setup>
 import { ref } from "vue";
