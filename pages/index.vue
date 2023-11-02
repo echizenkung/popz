@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="default">
+  <!-- <NuxtLayout name="default"> -->
     <section :key="'section'">
       <section v-if="$device.isDesktop">
         <VideoZoomOutIsDesktop />
@@ -678,7 +678,7 @@
         </div>
       </div>
     </section>
-  </NuxtLayout>
+  <!-- </NuxtLayout> -->
 </template>
 <script setup lang="ts">
 import VideoZoomOutIsDesktop from "../component/VideoZoomOutIsDesktop.vue";
