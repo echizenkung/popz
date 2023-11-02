@@ -1,12 +1,12 @@
 <template>
   <NuxtLayout name="default">
     <section :key="'section'">
-      <section v-if="$device.isDesktop">
+      <!-- <section v-if="$device.isDesktop">
         <VideoZoomOutIsDesktop />
       </section>
       <section v-if="$device.isMobile">
         <VideoZoomOutIsMobile />
-      </section>
+      </section> -->
       <div class="mt-8 lg:mt-2 text">
         <div class="flex justify-center">
           <h2 class="text-[#ED7638] text-[1.2rem] font-normal">
