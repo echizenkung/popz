@@ -1,6 +1,5 @@
 <template>
-  หห
-  <!-- <div class="hero">
+  <div class="hero">
     <div class="hero-media">
       <video
         class="hero-video"
@@ -25,7 +24,7 @@
         </h4>
       </div>
     </div>
-  </div> -->
+  </div>
 </template>
 <script setup>
 import { gsap } from "gsap";
@@ -77,7 +76,6 @@ onMounted(() => {
 
 <style scoped>
 .hero {
-  content: "";
   position: relative;
   height: 100vh;
   overflow: hidden;
