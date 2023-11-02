@@ -1,10 +1,10 @@
 <template>
   <NuxtLayout name="default">
     <section :key="'section'">
-      <!-- <section v-if="$device.isDesktop">
+      <section v-if="$device.isDesktop">
         <VideoZoomOutIsDesktop />
       </section>
-      <section v-if="$device.isMobile">
+      <!-- <section v-if="$device.isMobile">
         <VideoZoomOutIsMobile />
       </section> -->
       <div class="mt-8 lg:mt-2 text">
