@@ -116,7 +116,7 @@
     <slot></slot>
   </div>
 
-  <!-- <footer class="footer bg-[#eb7b31] text-[#ffffff] p-10">
+  <footer class="footer bg-[#eb7b31] text-[#ffffff] p-10">
     <div class="w-full">
       <div class="container py-2 mx-auto lg:w-[60%] md:w-[100%]">
         <div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
@@ -358,7 +358,7 @@
         </div>
       </div>
     </div>
-  </footer> -->
+  </footer>
 
 
 </template>
