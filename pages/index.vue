@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout name="default">
     <section :key="'section'">
-      <section v-if="$device.isDesktop">
+      <section>
         <VideoZoomOutIsDesktop />
       </section>
       <!-- <section v-if="$device.isMobile">
